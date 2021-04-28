@@ -1,0 +1,9 @@
+git add .
+git stash
+git checkout master 
+git pull origin master
+git checkout tor
+git pull origin tor
+git checkout tou
+git pull origin tou
+git checkout master
