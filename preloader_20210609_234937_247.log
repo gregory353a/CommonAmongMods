@@ -1,0 +1,25 @@
+System.TypeInitializationException: The type initializer for 'BepInEx.Logging.HarmonyLogSource' threw an exception. ---> System.IO.IOException: Sharing violation on path C:\Program Files (x86)\SteamLibrary\steamapps\common\Among Us\BepInEx\config\BepInEx.cfg
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <986ed57b9a8f4699a3c59a69eb05944a>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <986ed57b9a8f4699a3c59a69eb05944a>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <986ed57b9a8f4699a3c59a69eb05944a>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <986ed57b9a8f4699a3c59a69eb05944a>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at BepInEx.Configuration.ConfigFile.Save () [0x00033] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigFile.OnSettingChanged (System.Object sender, BepInEx.Configuration.ConfigEntryBase changedEntryBase) [0x00016] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigEntryBase.OnSettingChanged (System.Object sender) [0x00006] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigEntry`1[T].set_Value (T value) [0x00029] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigEntry`1[T].set_BoxedValue (System.Object value) [0x00000] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigEntryBase..ctor (BepInEx.Configuration.ConfigFile configFile, BepInEx.Configuration.ConfigDefinition definition, System.Type settingType, System.Object defaultValue, BepInEx.Configuration.ConfigDescription configDescription) [0x00096] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigEntry`1[T]..ctor (BepInEx.Configuration.ConfigFile configFile, BepInEx.Configuration.ConfigDefinition definition, HarmonyLib.Tools.Logger+LogChannel defaultValue, BepInEx.Configuration.ConfigDescription configDescription) [0x00000] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigFile.Bind[T] (BepInEx.Configuration.ConfigDefinition configDefinition, T defaultValue, BepInEx.Configuration.ConfigDescription configDescription) [0x0008e] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Configuration.ConfigFile.Bind[T] (System.String section, System.String key, T defaultValue, System.String description) [0x00016] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.Logging.HarmonyLogSource..cctor () [0x00005] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+   --- End of inner exception stack trace ---
+  at BepInEx.Bootstrap.BaseChainloader`1[TPlugin].InitializeLoggers () [0x000f2] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.IL2CPP.IL2CPPChainloader.InitializeLoggers () [0x00000] in <32326f12a26a48a38c4cfbd5b5ff9c86>:0 
+  at BepInEx.Bootstrap.BaseChainloader`1[TPlugin].Initialize (System.String gameExePath) [0x0001e] in <d27b0981ca394f64ab320996c5ed98bf>:0 
+  at BepInEx.IL2CPP.IL2CPPChainloader.Initialize (System.String gameExePath) [0x0001b] in <32326f12a26a48a38c4cfbd5b5ff9c86>:0 
+  at BepInEx.IL2CPP.Preloader.Run () [0x001e9] in <32326f12a26a48a38c4cfbd5b5ff9c86>:0 
+  at BepInEx.IL2CPP.UnityPreloaderRunner.PreloaderMain (System.String[] args) [0x00079] in <32326f12a26a48a38c4cfbd5b5ff9c86>:0 
+  at BepInEx.IL2CPP.DoorstopEntrypoint.Main (System.String[] args) [0x00055] in <32326f12a26a48a38c4cfbd5b5ff9c86>:0 

@@ -1,0 +1,475 @@
+﻿[Message: Preloader] BepInEx 6.0.0-be.353 - Among Us
+[Message: Preloader] BLEEDING EDGE Build #353 from c49f1b42f6d25e5b32b0557b8ae30bbce497574a at master
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Info   : Preloader] Running under Unity v2020.3.7.14522354
+[Info   : Preloader] 0 patcher plugins loaded
+[Info   : Preloader] 0 assemblies discovered
+[Message:   BepInEx] Chainloader initialized
+[Info   :Unhollower] Registered mono type UnhollowerRuntimeLib.DelegateSupport+Il2CppToMonoDelegateReference in il2cpp domain
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [The Other Roles 2.7.0]
+[Message:   BepInEx] Chainloader startup complete
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
+[Error  :    Detour] UnhollowerBaseLib.Il2CppException: System.NullReferenceException: Object reference not set to an instance of an object.
+
+  at UnhollowerBaseLib.Il2CppException.RaiseExceptionIfNecessary (System.IntPtr returnedException) [0x00014] in <3c9b7d776049470ab76a3adc498166ff>:0 
+  at UnityEngine.GameObject.SetActive (System.Boolean value) [0x00048] in <2b88263b591b4c31ab649b3aa9c4e2c4>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.snitchUpdate () [0x0002a] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at TheOtherRoles.PlayerControlFixedUpdatePatch.Postfix (PlayerControl __instance) [0x000b9] in <a9b16cdbc51b4349a36f96baacae6800>:0 
+  at (wrapper dynamic-method) PlayerControl.DMD<PlayerControl::FixedUpdate>(PlayerControl)
+  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.(il2cpp -> managed) FixedUpdate(intptr,UnhollowerBaseLib.Runtime.Il2CppMethodInfo*)
